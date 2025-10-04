@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhe Conosco</title>
+</head>
+
+<body>
+    <a href="home.html">Voltar</a>
+
+    <form method="get">
+        <div>
+            <label for="campo-vagas">Vagas</label>
+            <select name="vagas" id="campo-vagas">
+                <option value="geografia">Professor(a) de geografia</option>
+                <option value="historia">Professor(a) de historia</option>
+                <option value="portugues">Professor(a) de português</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="campo-anexo">Curriculo</label>
+            <input type="file" name="anexo" id="campo-anexo" required >
+        </div>
+
+        <div>
+            <label for="campo-email">E-mail</label>
+            <input type="email" name="email" id="campo-email" placeholder="Digite seu E-mail" required>
+        </div>
+
+        <div>
+            <label for="campo-telefone">Telefone</label>
+            <input type="text" name="telefone" id="campo-telefone" placeholder="Digite seu telefone">
+        </div>
+
+        <div>
+            <label for="campo-sobre" style="display: block;">Sobre Você</label>
+            <textarea name="sobre" id="campo-sobre" rows="10" cols="60"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
