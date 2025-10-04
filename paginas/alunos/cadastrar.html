@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadrastar Alunos</title>
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <br>
+    <h1>Cadastre o Aluno</h1>
+
+    <form action="#" method="get">
+        <div>
+            <label for="campo-nome-aluno">Nome</label>
+            <input type="text" name="nome" id="campo-nome-aluno" required autofocus placeholder="Digite o nome do aluno">
+        </div>
+
+        <div>
+            <label for="campo-data">Data de nascimento</label>
+            <input type="date" name="Data de nascimento" id="campo-data" required>
+        </div>
+
+        <div>
+            <label for="campo-imagem">Foto</label>
+            <input type="file" name="imagem" id="campo-imagem" required>
+        </div>
+
+        <div>
+            <label for="campo-serie">Série</label>
+            <select name="serie" id="campo-serie">
+                <option value="1 serie">1° Série</option>
+                <option value="2 serie">2° Série</option>
+                <option value="3 serie">3° Série</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="campo-numero">WhatsApp</label>
+            <input type="text" id="campo-numero" name="numero" required placeholder="Digite seu numero">
+        </div>
+
+        <div>
+            <label for="campo-login">Login</label>
+            <input type="email" id="campo-login" name="login" required placeholder="Digite o login">
+        </div>
+
+        <div>
+            <label for="campo-senha">Senha</label>
+            <input type="password" name="senha" id="campo-senha" required placeholder="Digite a senha">
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+        
+    </form>
+    
+</body>
+</html>
